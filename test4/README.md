@@ -6,11 +6,12 @@ To test for file upload vulnerabilities, a tester can try uploading different ty
 
 There are certain file formats that are commonly used to deliver malicious code or exploits, and are considered unsecure or high risk. These include:
 
-*`.sh`: Shell files, which can run commands on a user's computer. These are often used to deliver malware or viruses.
-*`.js`: JavaScript files, which can run scripts in a user's browser. These are often used to deliver client-side attacks such as XSS.
-*`.html`: HTML files, which can contain scripts or links to other malicious files.
+* `.sh`: Shell files, which can run commands on a user's computer. These are often used to deliver malware or viruses.
+* `.js`: JavaScript files, which can run scripts in a user's browser. These are often used to deliver client-side attacks such as XSS.
+* `.html`: HTML files, which can contain scripts or links to other malicious files.
 * `.xml`: XML files, which can contain scripts or links to other malicious files.
 * `.pdf`: PDF files, which can contain embedded scripts or links to other malicious files.
-*`.exe`: Executable files, which can run code on a user's computer. These are often used to deliver malware or viruses (mostly only for Windows).
-*`.dll`: Dynamic Link Library files, which are similar to .exe files, but are intended to be used as shared libraries of code for other programs (mostly only for Windows).
-* Also, filetype depends upon programming language offering using. In case of PHP, tester should check `.php`, for Ruby or Ruby on Rails applications it should be `.rb`
+* `.exe`: Executable files, which can run code on a user's computer. These are often used to deliver malware or viruses (mostly only for Windows).
+* `.dll`: Dynamic Link Library files, which are similar to .exe files, but are intended to be used as shared libraries of code for other programs (mostly only for Windows).
+
+Also, these filetype depends upon programming language offering using. In case of PHP, tester should check `.php`, for Ruby or Ruby on Rails applications it should be `.rb`
