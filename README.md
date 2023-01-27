@@ -9,4 +9,4 @@
 * Test 6: Permission issues
 * Test 7: Path traversal issues
 
-Please note that this is a basic security testing guide. It is recommended that industry professionals perform these practices, however, this content is provided so that testers can cover some basic testing. Content shared for educational purposes only.
+Please note that this is a basic security testing guide. It is recommended that security professionals perform these practices, however, this content is provided so that testers can cover some basic testing. Content shared for educational purposes only.
